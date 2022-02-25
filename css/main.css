@@ -10,37 +10,37 @@ html {
 }
 body {
     height: 100%;
-    font-family: 'Chakra Petch', 'Courier New' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 1px;
     color: #222;
+    background-image: url('../images/code.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 /* HEADER SECTIONS STYLES */
-.header {
+.main {
+    padding-top: 120px;
     width: 100%;
-    height: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('../images/beach.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
     color: #fff;
-    background-position: top;
 }
-.header__title {
-    font-family: 'IM Fell English','Georgia' serif;
+.main__title {
+    font-family: 'Noto Serif Display', serif;
     font-size: 42px;
     margin-bottom: 30px;
 }
-.header__text {
-    font-size: 18px;
+.main__text {
+    font-size: 15px;
     margin-bottom: 20px;
 }
-.header__btn {background-image: linear-gradient(to right, #360033 0%, #0b8793  51%, #360033  100%)}
-.header__btn {
+.main__btn {background-image: linear-gradient(to right, #360033 0%, #0b8793  51%, #360033  100%)}
+.main__btn {
    margin: 10px;
    padding: 15px 35px;
    text-align: center;
@@ -55,7 +55,7 @@ body {
    display: block;
  }
 
- .header__btn:hover {
+.main__btn:hover {
    background-position: right center; /* change the direction of the change here */
    color: #fff;
  }
